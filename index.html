@@ -4,22 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Leila Berrouayel</title>
   </head>
   <body>
-    <div data-aos="fade-down" data-aos-duration="6000">
-      <nav>
-        <div class="navLinks">
-          <a href="index.html" class="navBtn active">Home</a>
-          <a href="#" class="navBtn">About</a>
-          <a href="#" class="navBtn">Portfolio</a>
-          <a href="#" class="navBtn">Contact</a>
-        </div>
-      </nav>
-    </div>
+    <section id="home" class="home">
+      <h1>LEILA BERROUAYEL</h1>
+      <h2>WEB/SOFTWARE DEVELOPER</h2>
+      <p>Reliable - Committed - Dependable</p>
+      <div class="about">
+        <p>Developed communication, and time management skills from 2+ years working in a team.</p>
+        <p>Always going the extra mile, making a project better than requested.</p>
+      </div>
+      <div dest="about" class="navBtn aboutBtn">View my work <i class="fas fa-angle-double-right"></i></div>
+      <img src="./img/background.jpg" alt="bg" class="bg" />
+    </section>
+
+    <section id="about" class="aboutSec">
+      <div data-aos="fade-down" data-aos-duration="6000">
+        <nav>
+          <div class="navLinks">
+            <div dest="home" class="navBtn active">Home</div>
+            <div dest="about" class="navBtn">About</div>
+            <div dest="portfolio" class="navBtn">Porfolio</div>
+            <div dest="contact" class="navBtn">Contact</div>
+          </div>
+        </nav>
+      </div>
+      <h1>LEILA BERROUAYEL</h1>
+      <h2>WEB/SOFTWARE DEVELOPER</h2>
+    </section>
 
     <script src="js/index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
