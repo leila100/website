@@ -3,7 +3,7 @@
   flex-direction: column;
   height: 100%;
   max-width: 1000px;
-  color: white;
+  color: @white;
   font-family: "Raleway";
   line-height: 70px;
   margin: auto;
@@ -19,17 +19,11 @@
     font-size: 3rem;
     margin-bottom: 50px;
   }
-  .about {
-    font-family: "Raleway";
-    font-size: 2.6rem;
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-  }
+
   .aboutBtn {
     font-family: "Raleway";
     padding: 0 10px;
-    border: 2px solid #fff;
+    border: 2px solid @white;
     box-sizing: inherit;
     display: inline-block;
     font-size: 2.5rem;
@@ -57,7 +51,7 @@
     a {
       margin: 20px 3%;
       font-size: 3rem;
-      color: white;
+      color: @white;
       -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
       animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
     }

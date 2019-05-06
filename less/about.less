@@ -1,0 +1,47 @@
+.about {
+  font-family: "Raleway";
+  h1 {
+    text-align: center;
+    margin: 100px auto 10px;
+    font-weight: 400;
+  }
+  .line {
+    width: 100px;
+    height: 4px;
+    background: @blue;
+    text-align: center;
+    margin: 0 auto 100px;
+  }
+
+  .aboutSec {
+    height: 100%;
+    max-width: 1000px;
+    font-size: 2rem;
+    margin: auto;
+
+    .descriptions {
+      .flex();
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+
+      .aboutDesc {
+        .flex();
+        flex-direction: column;
+        width: 30%;
+        .aboutImg {
+          width: 80%;
+          border-radius: 50%;
+        }
+        .label {
+          font-size: 2.4rem;
+          font-weight: 700;
+          margin: 20px 0;
+        }
+        .desc {
+          line-height: 27px;
+        }
+      }
+    }
+  }
+}

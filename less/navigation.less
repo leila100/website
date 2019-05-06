@@ -1,12 +1,15 @@
 nav {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
   .flex();
   height: 50px;
   width: 100%;
-  background: #1b242f;
+  background: @dark_blue;
   border-bottom: 3px solid @blue;
   text-align: left;
   z-index: 99;
-  color: white;
+  color: @white;
   font-family: "Raleway", sans-serif;
 
   .navLinks {
@@ -17,13 +20,12 @@ nav {
     padding-left: 1.5%;
 
     .navBtn {
-      color: #fff;
+      color: @white;
       text-decoration: none;
       margin: 0 20px;
       cursor: pointer;
       transition: color 0.5s;
       text-transform: uppercase;
-      // color: @font-color;
       font-size: 1.6rem;
 
       &:hover {
@@ -31,7 +33,7 @@ nav {
       }
 
       &.active {
-        color: #e31b6d;
+        color: @red;
       }
 
       @media @mobile {

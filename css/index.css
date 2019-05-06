@@ -184,7 +184,7 @@ nav {
   border-bottom: 3px solid #04c2c9;
   text-align: left;
   z-index: 99;
-  color: white;
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
 }
 nav .navLinks {
@@ -197,7 +197,7 @@ nav .navLinks {
   padding-left: 1.5%;
 }
 nav .navLinks .navBtn {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 20px;
   cursor: pointer;
@@ -223,7 +223,7 @@ nav .navLinks .navBtn.active {
   flex-direction: column;
   height: 100%;
   max-width: 1000px;
-  color: white;
+  color: #ffffff;
   font-family: "Raleway";
   line-height: 70px;
   margin: auto;
@@ -240,17 +240,10 @@ nav .navLinks .navBtn.active {
   font-size: 3rem;
   margin-bottom: 50px;
 }
-.home .about {
-  font-family: "Raleway";
-  font-size: 2.6rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 20px;
-}
 .home .aboutBtn {
   font-family: "Raleway";
   padding: 0 10px;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   box-sizing: inherit;
   display: inline-block;
   font-size: 2.5rem;
@@ -280,7 +273,7 @@ nav .navLinks .navBtn.active {
 .home .iconsList a {
   margin: 20px 3%;
   font-size: 3rem;
-  color: white;
+  color: #ffffff;
   -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
@@ -323,4 +316,52 @@ nav .navLinks .navBtn.active {
     -webkit-transform: rotateX(-360deg);
     transform: rotateX(-360deg);
   }
+}
+.about {
+  font-family: "Raleway";
+}
+.about h1 {
+  text-align: center;
+  margin: 100px auto 10px;
+  font-weight: 400;
+}
+.about .line {
+  width: 100px;
+  height: 4px;
+  background: #04c2c9;
+  text-align: center;
+  margin: 0 auto 100px;
+}
+.about .aboutSec {
+  height: 100%;
+  max-width: 1000px;
+  font-size: 2rem;
+  margin: auto;
+}
+.about .aboutSec .descriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.about .aboutSec .descriptions .aboutDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+.about .aboutSec .descriptions .aboutDesc .aboutImg {
+  width: 80%;
+  border-radius: 50%;
+}
+.about .aboutSec .descriptions .aboutDesc .label {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.about .aboutSec .descriptions .aboutDesc .desc {
+  line-height: 27px;
 }
