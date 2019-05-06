@@ -3,15 +3,10 @@ nav {
   height: 50px;
   width: 100%;
   background: #1b242f;
-  border-bottom: 3px solid #04c2c9;
+  border-bottom: 3px solid @blue;
   text-align: left;
   z-index: 99;
   color: white;
-  // display: flex;
-  // justify-content: space-evenly;
-  // align-items: center;
-  // padding: 24px 1%;
-  // border-bottom: 2px dashed @navigation-border;
   font-family: "Raleway", sans-serif;
 
   .navLinks {
@@ -19,7 +14,7 @@ nav {
     justify-content: flex-start;
     max-width: 1200px;
     width: 100%;
-    padding-left: 3.5%;
+    padding-left: 1.5%;
 
     .navBtn {
       color: #fff;
@@ -32,7 +27,7 @@ nav {
       font-size: 1.6rem;
 
       &:hover {
-        color: @eastern-blue;
+        color: @blue;
       }
 
       &.active {
