@@ -26,21 +26,23 @@
       <h2>WEB/SOFTWARE DEVELOPER</h2>
       <p>Reliable - Committed - Dependable</p>
       <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-        <div dest="about" class="navBtn aboutBtn">View my work <i class="fas fa-angle-double-right"></i></div>
+        <div dest="about" class="aboutBtn">View my work <i class="fas fa-angle-double-right"></i></div>
       </div>
       <img src="./img/background.jpg" alt="bg" class="bg" />
     </section>
 
-    <section id="about" class="about">
-      <div data-aos="fade-down" data-aos-duration="6000">
-        <nav>
-          <div class="navLinks">
-            <div dest="home" class="navBtn active">Home</div>
-            <div dest="about" class="navBtn">About</div>
-            <div dest="portfolio" class="navBtn">Porfolio</div>
-            <div dest="contact" class="navBtn">Contact</div>
-          </div>
-        </nav>
+    <nav class="hide">
+      <div class="navLinks">
+        <div dest="home" class="navBtn">Home</div>
+        <div dest="about" class="navBtn active">About</div>
+        <div dest="projects" class="navBtn">Projects</div>
+        <div dest="contact" class="navBtn">Contact</div>
+      </div>
+    </nav>
+
+    <div id="about"></div>
+    <section class="about">
+      <div data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         <h1>ABOUT</h1>
         <div class="line"></div>
       </div>
@@ -66,11 +68,43 @@
           <img src="./img/leila2.png" alt="Leila Berrouayel" class="leilaImg" />
           <p>
             Reliable, committed, and dependable Web/Software Developer with 2+ years working as a Teaching Assistant in
-            a university's Computer Science Department while pursuing a Masters degree. An additional 2+ years working
-            in an oil company's IT team has helped develop communication, and management skills necessary to succeed in
-            a team environment. Strength include team player, hard-working, and always going the extra mile, making a
-            project better than requested
+            a university's Computer Science Department while pursuing a Masters degree in Computer Science. An
+            additional 2+ years working in an oil company's IT team has helped develop communication, and management
+            skills necessary to succeed in a team environment.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="projects"></div>
+    <section class="projects">
+      <div data-aos="fade-down-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <h1>PROJECTS</h1>
+        <div class="line"></div>
+      </div>
+      <div class="projectsSec">
+        <div class="proj">
+          <img src="./img/project1.png" alt="Burger Builder" class="projImg" />
+          <div class="projtitle">Burger Builder</div>
+          <p>
+            Burger Builder is an application where you would build a burger (by adding tomatoes, lettuce, cheese, and
+            meet) and then order it. You can also view your previous orders
+          </p>
+          <p>It was an application built during the Udemy course "React - The complete guide".</p>
+          <p>This application was built using: React - Redux - Firebase</p>
+        </div>
+        <div class="proj">
+          <img src="./img/project2.png" alt="OER Bookr" class="projImg" />
+          <div class="projtitle">OER Bookr</div>
+          <p>
+            OER Bookr is a website for digitized materials offered freely and openly for educators, students, and
+            self-learners to use and reuse for teaching, learning, and research.
+          </p>
+          <p>
+            It was an application built as a team project at Lambda School. I was responsible for building the frontend
+            part of the project
+          </p>
+          <p>This application was built using: React - sqlite3</p>
         </div>
       </div>
     </section>
