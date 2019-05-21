@@ -22,5 +22,9 @@ aboutBtn[0].addEventListener("click", function() {
   const dest = this.getAttribute("dest");
   location.href = `#${dest}`;
   const nav = document.getElementsByTagName("nav");
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  var about = document.getElementById("aboutPage");
+  about.className += " active";
   nav[0].classList.remove("hide");
 });
