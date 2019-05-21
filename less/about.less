@@ -19,9 +19,7 @@
 
   .aboutSec {
     height: 100%;
-    max-width: 1000px;
     font-size: 2rem;
-    margin: auto;
 
     .descriptions {
       .flex();
@@ -33,6 +31,7 @@
         .flex();
         flex-direction: column;
         width: 30%;
+        padding: 10px;
         .aboutImg {
           width: 80%;
           border-radius: 50%;
@@ -44,6 +43,22 @@
         }
         .desc {
           line-height: 27px;
+          height: 100px;
+          ul {
+            list-style: square inside;
+          }
+        }
+
+        @media @mobile {
+          flex-direction: column;
+          width: 90%;
+          margin: auto;
+          .aboutImg {
+            width: 60%;
+          }
+          .desc {
+            width: 100%;
+          }
         }
       }
     }
@@ -58,6 +73,17 @@
       p {
         font-size: 2rem;
         line-height: 30px;
+      }
+
+      @media @mobile {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        img {
+          width: 60%;
+          margin-right: 0;
+          margin-bottom: 15px;
+        }
       }
     }
   }

@@ -2,11 +2,9 @@
   .flex();
   flex-direction: column;
   height: 100%;
-  max-width: 1000px;
   color: @white;
   font-family: "Raleway";
   line-height: 70px;
-  margin: auto;
   h1 {
     font-size: 8rem;
     margin: 100px 0 30px;
@@ -54,6 +52,30 @@
       color: @white;
       -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
       animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    }
+  }
+
+  @media @tablet-sm {
+    padding-bottom: 94px;
+    h1 {
+      margin-top: 50px;
+      font-size: 6rem;
+    }
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media @mobile {
+    h1 {
+      margin-top: 30px;
+      font-size: 4.3rem;
+    }
+    h2 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 2.3rem;
     }
   }
 }
